@@ -5,17 +5,17 @@
 ## Estructura Del Proyecto:
   El proyecto tiene la siguiente estructura de directorios: 
   
-    -src/main/java/com/alurachallenge/challenge_literatura-
+  **src/main/java/com/alurachallenge/challenge_literatura**
         model/: Contiene las clases de modelo como Autor, Libro, y varias clases de datos.
         principal/: Contiene la clase Principal que parece ser el punto de entrada principal.
         repository/: Contiene las interfaces de repositorio como AutorRepository y LibroRepository.
         service/: Contiene las clases de servicio para consumir APIs y convertir datos (ConsumoAPI, ConvierteDatos, IConvierteDatos).
         ChallengeLiteraturaApplication.java: La clase principal de la aplicación Spring Boot. 
 
-    -src/main/resources-
+    **src/main/resources**
         application.properties: Archivo de configuración de la aplicación. 
         
-    -src/test/java/com/alurachallenge/challenge_literatura-
+    **src/test/java/com/alurachallenge/challenge_literatura**
         ChallengeLiteraturaApplicationTests.java: Contiene las pruebas unitarias para la aplicación.
         .gitignore: Archivo para especificar qué archivos deben ser ignorados por Git.
         HELP.md: Archivo de ayuda del proyecto.
@@ -36,16 +36,21 @@
 
 ## Instalación
     -Clona el repositorio:
-      -git clone https://github.com/tu-usuario/challenge-literatura.git
+    
+      git clone https://github.com/tu-usuario/challenge-literatura.git
+      
     -Navega al directorio del proyecto:
-      -cd challenge-literatura
+    
+      cd challenge-literatura
+      
     -Construye el proyecto usando Maven:
-      -./mvnw clean install
+    
+      ./mvnw clean install
 
 ## Ejecución
   Para ejecutar la aplicación, usa el siguiente comando:
   
-    -./mvnw spring-boot:run
+    ./mvnw spring-boot:run
 
 ## Uso
   Una vez que la aplicación esté en ejecución, sigue las instrucciones en la consola para interactuar con las funcionalidades disponibles.
