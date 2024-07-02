@@ -1,7 +1,7 @@
-**Challenge Literatura:**
+#Challenge Literatura:
   Este proyecto es una aplicación para gestionar información sobre libros y autores. Permite buscar libros, listar libros guardados, listar autores, buscar libros por idioma, y más.
 
-**Estructura Del Proyecto:**
+##Estructura Del Proyecto:
   El proyecto tiene la siguiente estructura de directorios:
     -src/main/java/com/alurachallenge/challenge_literatura-
         model/: Contiene las clases de modelo como Autor, Libro, y varias clases de datos.
@@ -18,7 +18,7 @@
     pom.xml: Archivo de configuración de Maven.
     mvnw y mvnw.cmd: Wrappers de Maven para garantizar que la versión correcta de Maven se utilice.
 
-**Funcionalidades**
+##Funcionalidades
     1-. Buscar libro ingresado
     2-. Listar libros guardados
     3-. Listar autores guardados
@@ -26,11 +26,11 @@
     5-. Listar libros por idioma
     6-. Listar libros más descargados
 
-**Requisitos Previos**
+##Requisitos Previos
     -Java 11 o superior
     -Maven 3.6.3 o superior
 
-**Instalación**
+##Instalación
     -Clona el repositorio:
       -git clone https://github.com/tu-usuario/challenge-literatura.git
     -Navega al directorio del proyecto:
@@ -38,14 +38,14 @@
     -Construye el proyecto usando Maven:
       -./mvnw clean install
 
-**Ejecución**
+##Ejecución
   Para ejecutar la aplicación, usa el siguiente comando:
     -./mvnw spring-boot:run
 
-**Uso**
+##Uso
   Una vez que la aplicación esté en ejecución, sigue las instrucciones en la consola para interactuar con las funcionalidades disponibles.
 
-**Contribución**
+###Contribución
   Si deseas contribuir a este proyecto, por favor sigue estos pasos:
     -Haz un fork del repositorio.
     -Crea una rama (git checkout -b feature/nueva-funcionalidad).
