@@ -3,8 +3,10 @@
 
 ## Estructura Del Proyecto:
   El proyecto tiene la siguiente estructura de directorios: 
+
   
   -src/main/java/com/alurachallenge/challenge_literatura-
+  
         model/: Contiene las clases de modelo como Autor, Libro, y varias clases de datos.
         principal/: Contiene la clase Principal que parece ser el punto de entrada principal.
         repository/: Contiene las interfaces de repositorio como AutorRepository y LibroRepository.
