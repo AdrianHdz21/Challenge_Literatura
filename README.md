@@ -1,21 +1,24 @@
 # Challenge Literatura:
   Este proyecto es una aplicación para gestionar información sobre libros y autores. Permite buscar libros, listar libros guardados, listar autores, buscar libros por     
-  idioma, y más.
+idioma, y más.
 
 ## Estructura Del Proyecto:
   El proyecto tiene la siguiente estructura de directorios: 
   
-  **src/main/java/com/alurachallenge/challenge_literatura**
+  -src/main/java/com/alurachallenge/challenge_literatura-
+  
         model/: Contiene las clases de modelo como Autor, Libro, y varias clases de datos.
         principal/: Contiene la clase Principal que parece ser el punto de entrada principal.
         repository/: Contiene las interfaces de repositorio como AutorRepository y LibroRepository.
         service/: Contiene las clases de servicio para consumir APIs y convertir datos (ConsumoAPI, ConvierteDatos, IConvierteDatos).
         ChallengeLiteraturaApplication.java: La clase principal de la aplicación Spring Boot. 
 
-    **src/main/resources**
+    -src/main/resources-
+    
         application.properties: Archivo de configuración de la aplicación. 
         
-    **src/test/java/com/alurachallenge/challenge_literatura**
+    -src/test/java/com/alurachallenge/challenge_literatura-
+    
         ChallengeLiteraturaApplicationTests.java: Contiene las pruebas unitarias para la aplicación.
         .gitignore: Archivo para especificar qué archivos deben ser ignorados por Git.
         HELP.md: Archivo de ayuda del proyecto.
