@@ -1,8 +1,10 @@
 # Challenge Literatura:
-  Este proyecto es una aplicación para gestionar información sobre libros y autores. Permite buscar libros, listar libros guardados, listar autores, buscar libros por idioma, y más.
+  Este proyecto es una aplicación para gestionar información sobre libros y autores. Permite buscar libros, listar libros guardados, listar autores, buscar libros por     
+  idioma, y más.
 
 ## Estructura Del Proyecto:
-  El proyecto tiene la siguiente estructura de directorios:
+  El proyecto tiene la siguiente estructura de directorios: --
+  
     -src/main/java/com/alurachallenge/challenge_literatura-
         model/: Contiene las clases de modelo como Autor, Libro, y varias clases de datos.
         principal/: Contiene la clase Principal que parece ser el punto de entrada principal.
